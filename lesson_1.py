@@ -48,16 +48,3 @@
 
 
 
-
-
-class Test:
-    def print_text(self):
-        print("это дочерный класс (Test)")
-
-
-class Test2:
-    def print_text(self):
-        print("это дочерный класс (Test2)")
-
-test = Test2()
-test.print_text()
